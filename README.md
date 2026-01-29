@@ -4,23 +4,7 @@ This repository provides a **comprehensive, step-by-step implementation** of AWS
 
 ---
 
-## Repo structure
 
-```
-aws-account-governance/
-├─ README.md                 # This file
-├─ LICENSE
-├─ templates/
-│  ├─ secure-bucket.yml      # S3 bucket for CloudTrail & AWS Config
-│  ├─ config-rules.yml       # AWS Config managed rules and remediation (CFN)
-│  └─ iam-identity-center.md  # notes + IAM permission-set examples
-├─ scripts/
-│  ├─ enable-security-hub.sh # CLI helper (optional)
-│  └─ cleanup.sh             # tear-down helper to remove resources
-└─ docs/
-   ├─ verification.md        # testing & validation steps
-   └─ cost-awareness.md      # budgets + Cost Explorer tips
-```
 
 ---
 
